@@ -1,0 +1,13 @@
+<ul>
+    <li *ngFor="let a of articles" >
+        <p>
+            <strong>{{a.title}}</strong><br>
+            {{a.content}}
+       </p>
+       <hr>
+
+    <div>
+       <button>{{a.nbrLikes}}  Likes </button>
+    </div>
+    </li>
+</ul>
